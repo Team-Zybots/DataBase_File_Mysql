@@ -26,7 +26,7 @@ Initial data for test users (Alice, Dr. Bob) migrated from import.sql.
 Spring Boot Configuration
 Instructions will include the standard MySQL properties:
 
-# #properties
+# ## properties
 ``` bash
 spring.datasource.url=jdbc:mysql://localhost:3306/mediqueue
 spring.datasource.username=YOUR_USERNAME
