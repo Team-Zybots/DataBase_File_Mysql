@@ -32,3 +32,4 @@ spring.datasource.url=jdbc:mysql://localhost:3306/mediqueue
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
+---
