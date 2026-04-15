@@ -18,14 +18,15 @@ Executing the setup script.
 Updating application.properties for MySQL connection.
 Technical Details
 SQL Schema
+```
 The schema will include:
 
-<\t>* users table (Parent table for inheritance).
+* users table (Parent table for inheritance).
 * patients, doctors, admins tables (Joined with users).
 * appointments, schedules, notifications tables with foreign keys.
 * Initial data for test users (Alice, Dr. Bob) migrated from import.sql.
 * Spring Boot Configuration
-```
+
 ---
 # Instructions will include the standard MySQL properties:
 
