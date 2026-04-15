@@ -1,5 +1,5 @@
 # MySQL Database Setup Implementation Plan
-This plan outlines the steps to add MySQL database support and setup documentation for the "Just In Time" medical application.
+>* This plan outlines the steps to add MySQL database support and setup documentation for the "Just In Time" medical application.
 
 User Review Required
 ## IMPORTANT
@@ -26,10 +26,10 @@ Initial data for test users (Alice, Dr. Bob) migrated from import.sql.
 Spring Boot Configuration
 Instructions will include the standard MySQL properties:
 
-properties
---- bash
+# #properties
+``` bash
 spring.datasource.url=jdbc:mysql://localhost:3306/mediqueue
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
----
+```
