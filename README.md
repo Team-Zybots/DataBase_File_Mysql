@@ -20,7 +20,7 @@ Technical Details
 SQL Schema
 The schema will include:
 
-* users table (Parent table for inheritance).
+<\t>* users table (Parent table for inheritance).
 * patients, doctors, admins tables (Joined with users).
 * appointments, schedules, notifications tables with foreign keys.
 * Initial data for test users (Alice, Dr. Bob) migrated from import.sql.
