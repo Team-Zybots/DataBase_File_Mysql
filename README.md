@@ -11,14 +11,14 @@ The application currently uses an H2 in-memory database for development. Switchi
 mediqueue_setup.sql
 Create a new SQL script to set up the MySQL database schema and insert initial seed data. This script will reflect the JPA entity structure defined in the backend.
 ---
-
+```text
 Creating the mediqueue database.
 Executing the setup script.
 Updating application.properties for MySQL connection.
 Technical Details
 SQL Schema
 The schema will include:
-
+```
 * users table (Parent table for inheritance).
 * patients, doctors, admins tables (Joined with users).
 * appointments, schedules, notifications tables with foreign keys.
