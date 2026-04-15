@@ -27,7 +27,7 @@ Spring Boot Configuration
 Instructions will include the standard MySQL properties:
 
 properties
----bash
+--- bash
 spring.datasource.url=jdbc:mysql://localhost:3306/mediqueue
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
